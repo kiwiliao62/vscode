@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/devcontainers/typescript-node:20-bookworm
 
-ADD lw:install-vscode.sh /root/
+ADD lw1:install-vscode.sh /root/
 RUN /root/install-vscode.sh
 
 RUN git config --system codespaces-theme.hide-status 1
